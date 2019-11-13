@@ -356,7 +356,6 @@ some basic methods for working with a connection:
    Connection.close
 
 
-
 .. _client-tech:
 
 Technical details

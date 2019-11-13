@@ -2161,7 +2161,6 @@ cdef wrapError(RFC_ERROR_INFO* errorInfo):
         wrapString(errorInfo.abapMsgV1), wrapString(errorInfo.abapMsgV2),
         wrapString(errorInfo.abapMsgV3), wrapString(errorInfo.abapMsgV4))
 
-
 cdef wrapString(SAP_UC* uc, uclen=-1, rstrip=False):
     cdef RFC_RC rc
     cdef RFC_ERROR_INFO errorInfo
